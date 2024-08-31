@@ -75,17 +75,6 @@ body {
 .home-content {
     max-width: 600px;
 }
-
-
-.about-img1 img {
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
-}
-
-
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
