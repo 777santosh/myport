@@ -893,3 +893,27 @@ h1 {
 }
 
 
+
+
+.layer {
+    position: relative; /* allows absolute positioning inside */
+    padding: 20px;
+}
+
+.github-link {
+    position: absolute;
+    top: 15px;     /* distance from top */
+    right: 15px;   /* distance from right */
+    font-size: 28px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.github-link:hover {
+    color: #00aced;   /* hover color */
+    transform: scale(1.2);
+}
+
+
+
